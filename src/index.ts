@@ -10,7 +10,7 @@ let idsany: any[] = [1, 2, 3, 4, 5, "kk", false, false, false, false, false];
 
 console.log("id: ", id);
 
-//Tuple types
+//Tuple types-
 
 let person: [number, string, boolean] = [2, "gg", true];
 console.log("id: ", person);
@@ -106,7 +106,6 @@ interface Mathfunctions {
 }
 
 const addnum: Mathfunctions = (X: number, Y: number): number => x + Y;
-const subnum: Mathfunctions = (X: number, Y: number): number => x - Y;
 
 interface whatInterf {
   id: number;
